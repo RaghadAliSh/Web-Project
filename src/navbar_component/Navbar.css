@@ -1,0 +1,59 @@
+.logo{
+    width: 35px;
+    height: 35px;
+}
+.navbar-body{
+    margin: 0;
+    flex-direction:column;
+}
+.search{
+    padding-top: 15px;
+    width : 260px;
+    height: 40;
+}
+    
+.space-1{
+    width: 380px;
+}
+.first-nav-dropdown {
+    color: rgba(25, 25, 238, 0.866);
+}
+.profile-photo{
+    width: 35px;
+    height: 35px;
+}
+#first-nav-dropdown{
+    padding-top: 15px;
+    font-size: 18px;
+    color: rgb(66, 96, 230);
+}
+#secound-nav-dropdown{
+    padding-top: 15px;
+    font-size: 18px;
+    color: gray;
+}
+#third-nav-dropdown{
+    padding-top: 15px;
+    font-size: 18px;
+    color: gray;
+}
+.text-link{
+    font-size: 18px;
+    color: gray;
+}
+.icon{
+    text-align: center;
+    border: hidden;
+    
+}
+.button{
+    border-radius: 20%;
+    border-style: hidden;
+    width: 45px;
+    height: 45px;
+}
+.profile-photo{
+    width: 45px;
+    height: 45px;
+    border-radius: 20%;
+}
