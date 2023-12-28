@@ -1,0 +1,134 @@
+.post{
+    width:500px;
+    height: 400px;
+    border-style: ridge;
+    border-radius: 2%;
+}
+.post-header{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-top: 0;
+}
+.post-photo{
+    padding-top: 35px;
+}
+.post-img{
+    width: 60px;
+    height: 60px;
+}
+.post-info{
+    padding-top: 15px;
+}
+.page-name{
+    text-decoration-line: none;
+    color:black;
+}
+.date{
+    margin-top: 0%;
+    color: gray;
+}
+
+.button-icon{
+    border: hidden;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+
+.post-text{
+    color: gray;
+    padding-left: 15px;
+
+}
+
+.post-nav{
+    padding-left: 30px;
+    display: flex;
+    float:left;
+    flex-direction: row;
+}
+.post-react{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(228, 71, 71);
+    color: rgb(248, 236, 236);
+    border-radius: 50%;
+    padding-left: 0px;
+    padding-left: 0px;
+
+}
+
+.nav-text{
+    padding-left: 10px;
+    color:rgb(98, 98, 98);
+}
+.button-post-react{
+    background-color: rgb(255, 255, 255);
+    border: hidden;
+    padding-left: 0px;
+}
+.nav-comment{
+    background-color: rgb(255, 255, 255);
+    border: hidden;
+    padding-right: 0px;
+}
+.post-react-comment{
+    width: 20px;
+    height: 20px;
+    padding-left: 80px;
+
+}
+.line{
+    color: gray;
+}
+.button1-nav-down{
+    background-color: rgb(255, 255, 255);
+    border: hidden;
+    padding-left: 0px;
+
+}
+.button2-nav-down{
+    background-color: rgb(255, 255, 255);
+    border: hidden;
+    padding-left: 90px;
+}
+.button3-nav-down{
+    background-color: rgb(255, 255, 255);
+    border: hidden;
+    padding-left: 160px;
+}
+
+/* comment.css */
+.comment-container {
+    width:500px;
+    height: 550px;
+    border-style: ridge;
+    border-radius: 2%;
+
+  }
+  
+  .comment-item {
+    margin-bottom: 20px;
+  }
+  
+  .comment-item .avatar {
+    margin-right: 10px;
+  }
+  
+   .avatar-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .nav-link{
+    color: black;
+  }
+  .Post2{
+    width:500px;
+    height: 400px;
+    border-style: ridge;
+    border-radius: 2%;
+  }
