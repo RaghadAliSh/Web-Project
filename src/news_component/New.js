@@ -8,9 +8,7 @@ const News = () => {
 
   useEffect(() => {
     const fetchCitiesData = async () => {
-      console.log("eeeeeeeeee");
       try {
-        console.log("ttttt");
 
         const newslist = await getnews();
 
@@ -46,7 +44,7 @@ const News = () => {
           <> </>
         ) : (
           <div
-            className="lla"
+            className="repeat"
             onClick={() => {
               setview(4);
             }}
