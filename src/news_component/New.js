@@ -35,7 +35,7 @@ const News = () => {
                   <a className="opo" href={item.tit}>
                     {item.namees}
                   </a>
-                  <div className="iiii">{item.howeee}</div>
+                  <div className="Time">{item.howeee}</div>
                 </div>
               );
             }
