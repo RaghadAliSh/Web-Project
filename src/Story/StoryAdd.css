@@ -1,0 +1,59 @@
+.appBasic {
+  display: flex;
+  justify-content: center;
+}
+.scroll {
+  width: 670px;
+  height: 270px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  justify-content: start;
+  align-items: center;
+  border: 1px solid rgb(235, 234, 245);
+  border-radius: 7px;
+}
+body {
+  height: 100vh;
+}
+
+.story-gallary {
+  display: flex;
+  justify-content: space-between;
+  /* margin-bottom: 100px; */
+  padding-bottom: 30px;
+}
+
+.Story {
+  border-radius: 20px;
+  flex-basis: 30%;
+  position: relative;
+  text-align: center;
+  padding: 55px;
+  border: 4px dotted #ccc;
+  margin: 30px 10px 35px;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.plusicon:hover {
+  background-color: #ccc;
+}
+
+.plusicon {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  background-color: #84888b;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.Story h6 {
+  display: block;
+  font-size: 16px;
+}

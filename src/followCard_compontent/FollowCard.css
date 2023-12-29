@@ -1,0 +1,96 @@
+.card {
+  border-style: ridge;
+  width: 250px;
+  background-color: rgb(255, 255, 255);
+  direction: center;
+}
+
+.card-title {
+  width: 250px;
+  height: 30px;
+  padding-left: 25px;
+  margin-bottom: 100px;
+}
+
+.card-body {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.card-friend {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.name {
+  text-decoration: none;
+  color: black;
+}
+
+.bio {
+  font-size: 14px;
+  color: rgb(131, 138, 138);
+}
+
+.buttonFollow {
+  border-radius: 50%; 
+  padding-left: 5px;
+   margin: auto; 
+   width: 40px; 
+  height: 40px;
+  border: hidden;
+  background-color: rgb(241, 244, 244);
+  padding-right: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.add {
+  font-size: x-large;
+  margin: auto;
+  color: rgb(41, 128, 215);
+  padding-left: 3px;
+}
+
+.added {
+  font-size: x-large;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  background-color: rgb(41, 128, 215);
+  padding-left: 3.6px;
+  border: hidden;
+}
+
+.button-added {
+  border-radius: 50%;
+  padding-left: 5px;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  border: hidden;
+  background-color: rgb(230, 252, 252);
+  padding-right: 8px;
+  background-color: rgb(41, 128, 215);
+}
+
+.veiw-more {
+  padding-left: 20px;
+  display: flex;
+}
+
+.veiw-more-button {
+  width: 205px;
+  color: rgb(41, 128, 215);
+  background-color: rgb(230, 252, 252);
+  height: 35px;
+  border: hidden;
+  border-radius: 10%;
+  font-size: medium;
+}

@@ -1,0 +1,42 @@
+.App22 {
+  text-align: center;
+  width: 280px;
+  background-color: rgb(234, 225, 225);
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+.target {
+  text-align: start;
+  font-size: 28px;
+  padding: 20px 20px 0 0;
+  font-family: sans-serif;
+  font-weight: bold;
+  height: 45px;
+  margin-bottom: 30px;
+}
+.itemss {
+  text-align: start;
+  margin-bottom: 15px;
+
+  font-weight: bold;
+  font-size: 15px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.opo {
+  width: 13px;
+  text-decoration: none;
+  color: black;
+}
+
+.lla {
+  display: flex;
+  text-align: start;
+}
+
+.iiii {
+  font-weight: 100;
+}
