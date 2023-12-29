@@ -15,7 +15,7 @@ const FollowCard = () => {
     const fetchCitiesData = async () => {
       console.log(" CitiesData ");
       try {
-        console.log("ttttt");
+        console.log(" CitiesData try ");
         const friendlist = await getfollow();
 
         setallfriend(friendlist);
