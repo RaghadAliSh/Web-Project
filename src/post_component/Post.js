@@ -18,11 +18,11 @@ const Post = () => {
 
   useEffect(() => {
     const fetchCitiesData = async () => {
-      console.log("eeeeeeeeee");
+      console.log(" CitiesData ");
       try {
-        console.log("ttttt");
+        console.log(" CitiesData try ");
         const postlist = await getpost();
-        console.log("fffff", postlist);
+        console.log(" CitiesData list", postlist);
 
         setallpost(postlist);
       } catch (error) {
