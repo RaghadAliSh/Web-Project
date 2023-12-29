@@ -13,7 +13,7 @@ const FollowCard = () => {
 
   useEffect(() => {
     const fetchCitiesData = async () => {
-      console.log("eeeeeeeeee");
+      console.log(" CitiesData ");
       try {
         console.log("ttttt");
         const friendlist = await getfollow();
